@@ -9,10 +9,10 @@ terraform {
   }
   # Update backend information as Terraform Cloud
   backend "remote" {
-    organization = "sentinel"
+    organization = "testsentinel"
 
     workspaces {
-      name = "sentinel-demo1"
+      name = "Sentinel"
     }
   }
 
